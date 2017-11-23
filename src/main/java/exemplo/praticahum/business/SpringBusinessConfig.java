@@ -10,5 +10,4 @@ public class SpringBusinessConfig {
 	public SpringBusinessConfig() {
 		super(); 
 	}
-	
 }
