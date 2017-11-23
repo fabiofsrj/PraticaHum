@@ -83,7 +83,7 @@ public class SpringWebConfig extends WebMvcConfigurerAdapter implements Applicat
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
 		dataSource.setUrl("jdbc:mysql://localhost:3306/academicos");
-		dataSource.setUsername("admin");
+		dataSource.setUsername("root");
 		dataSource.setPassword("admin");
 		
 		return dataSource;
