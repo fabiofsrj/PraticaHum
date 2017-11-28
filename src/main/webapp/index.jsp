@@ -9,6 +9,8 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Welcome</title>
+		
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css" >
 	</head> 
 	<body>
 		<c:url value="/showMessage.html" var="messageUrl" />

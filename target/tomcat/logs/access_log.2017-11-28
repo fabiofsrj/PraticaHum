@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [28/Nov/2017:14:39:15 -0200] "GET /PraticaHum HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [28/Nov/2017:14:39:18 -0200] "GET /PraticaHum/ HTTP/1.1" 200 233 http-bio-8080-exec-3 2632
+0:0:0:0:0:0:0:1 - - [28/Nov/2017:14:39:18 -0200] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [28/Nov/2017:14:39:26 -0200] "GET /PraticaHum/showMessage.html;jsessionid=C7C6A5AE39AFC6F4A388BC628ED1BFE2 HTTP/1.1" 404 949 http-bio-8080-exec-6 28
