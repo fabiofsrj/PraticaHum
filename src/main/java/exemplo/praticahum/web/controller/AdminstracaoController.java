@@ -3,12 +3,14 @@ package exemplo.praticahum.web.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import exemplo.praticahum.business.entity.Empresa;
+
 @Controller
 public class AdminstracaoController {
 
 	
 	@RequestMapping("/adm/planejarEmpresa")
-	public String planejarEmpresa() {
+	public String planejarEmpresa(Empresa empresa) {
 		return("planejarEmpresa");
 	}
 	
@@ -20,6 +22,6 @@ public class AdminstracaoController {
 	@RequestMapping("/adm/desativarEmpresa")
 	public String desativarEmpresa() {
 		return("desativarEmpresa");
-	}
+	} 
 	
 }
